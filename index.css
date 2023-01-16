@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(205, 2, 2);
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-wrapper{
+    width: 700px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo, .content, .input-wrapper, .confirm{
+    width: 600px;
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 500px;
+}
+
+.logo,.content, .confirm{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 150px;
+}
+
+a{
+    color: gray;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: white;
+}
+
+.resend{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.otp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.otp input{
+    width: 50px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    color: rgb(205, 2, 2);
+    font-size: 25px;
+}
+
+.confirm{
+    padding-top: 50px;
+}
+
+button{
+    background-color: rgb(205, 2, 2);
+    color: white;
+    width: 200px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 700px){
+    img{
+        width: 300px;
+        height: 100px;
+    }
+
+    .main-wrapper{
+        width: 500px;
+        height: 100vh;
+    }
+
+    .logo, .content, .input-wrapper, .confirm{
+        width: 400px;
+    }
+
+    .input{
+        width: 350px;
+    }
+
+    .otp input{
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+    }
+    
+}
+
+@media only screen and (max-width: 450px){
+    img{
+        width: 250px;
+        height: 100px;
+    }
+
+    .main-wrapper{
+        width: 350px;
+        height: 100vh;
+    }
+
+    .logo, .content, .input-wrapper, .confirm{
+        width: 300px;
+    }
+
+    .input{
+        width: 300px;
+    }
+
+    .otp input{
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+    
+}
+
